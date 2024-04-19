@@ -6,17 +6,15 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background:linear-gradient(to bottom,#fcce6c,rgb(245, 223, 98)); 
+    background:linear-gradient(to bottom,#ddb867,rgb(231, 212, 104)); 
     box-sizing:border-box;
     z-index:-10;
 }
 
 .container {
     background-color: #f1b253;
-    margin: 0 auto;
     padding: 1rem;
     display: flex;
-    align-items: center;
     gap:2rem;
 }
 .saturn_logo img{
@@ -32,6 +30,30 @@ body {
     to{transform: rotate(0deg);}
     from{transform:rotate(360deg);}
 }
+.nav_main{
+    background-color: #f1b253;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    justify-content:space-between;
+}
+.nav_lists{
+    display:flex;
+    gap:1rem;
+    padding-right:2rem;
+}
+.nav_lists a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight:600;
+    color:rgb(0, 118, 214);
+    transition:color 200ms ease;
+}
+.nav_lists a:hover{
+    color:rgb(255, 255, 0);
+}
+.nav_btn,.nav_btn2{display:none;}
 
 .main_header {
     text-align: center;
@@ -368,7 +390,7 @@ footer p{
     right:5%;
 }
 .pos3{
-    top:303%;
+    top:245%;
     left:5%;
 }
 
@@ -379,9 +401,16 @@ footer p{
         flex-direction: row;
         padding-top:1rem;
         gap:1rem;
-        align-items: center;
+        align-items:left;
+        padding-left:0.5rem;
     }
-
+    .saturn_logo img{
+        width:50px;
+        height:30px;
+    }
+    .saturn_header h1{
+        font-size: 1.8rem;
+    }
     .nav-links {
         margin-top: 20px;
         display: none;
@@ -392,9 +421,55 @@ footer p{
         flex-direction: column;
         align-items: center;
     }
-
     .nav-links li {
         margin: 10px 0;
+    }
+    .nav_btn{
+        margin-right:1rem;
+        display:block;
+    }
+    .nav_btn img{
+        width:35px;
+        filter: invert(38%) sepia(95%) saturate(4758%) hue-rotate(191deg) brightness(93%) contrast(102%);
+    }
+    .nav_lists{display:none;}
+    .nav_main.nav_stl{
+        position:fixed;
+        inset: 0 0 0 0;
+        background-color: white;
+        z-index:100;
+        display:flex;
+        flex-direction: column;
+        border:1px solid red;
+        text-align:left;
+        margin:0;
+        padding:0;
+        gap:0;
+    }
+    .nav_main.nav_stl .container{
+        width:100%;
+        padding-left:2rem;
+    }
+    .nav_main.nav_stl >.nav_control >.nav_lists{
+        text-align: center;
+        margin:0;
+        display:block;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .nav_main.nav_stl >.nav_control >.nav_lists div{
+        padding-top:2rem;
+    }
+    .nav_main.nav_stl >.nav_control >.nav_btn2 img{
+        position: absolute;
+        top:0;
+        right:0;
+        padding-top:0.5rem;
+        padding-right:1rem;
+        width:50px;
+        filter: invert(38%) sepia(95%) saturate(4758%) hue-rotate(191deg) brightness(93%) contrast(102%);
     }
     .fTenor_logo{
         margin:0 auto;
