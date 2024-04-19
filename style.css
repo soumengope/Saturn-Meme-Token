@@ -98,11 +98,10 @@ body {
     padding:4rem 2rem;
     width:50%;
     margin:0 auto;
-    background-color: #f5a030;
+    background-color: #ffffff;
     border-radius: 20px;
     border:1px solid white;
-    box-shadow:inset 0px 0px 5px black,
-    8px 8px 5px 8px rgba(255, 166, 0, 0.2),
+    box-shadow: 8px 8px 5px 8px rgba(255, 166, 0, 0.2),
     2px 2px 10px rgb(231, 141, 68);
 }
 .feature h3{
@@ -155,11 +154,10 @@ body {
     padding:4rem 2rem;
     width:50%;
     margin:0 auto;
-    background-color: #ffcf4a;
+    background-color: #ffffff;
     border-radius: 20px;
     border:1px solid white;
-    box-shadow:inset 0px 0px 5px black,
-    8px 8px 5px 8px rgba(255, 166, 0, 0.2),
+    box-shadow: 8px 8px 5px 8px rgba(255, 166, 0, 0.2),
     2px 2px 10px rgb(231, 141, 68);
 }
 .roadmap-item h3{
@@ -230,6 +228,7 @@ body {
 .yt_vid iframe{
     width:90%;
     border-radius:20px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
 .dgnImg{
@@ -244,7 +243,7 @@ body {
     height:100%;
     border-radius: 20px;
     object-fit:cover;
-    box-shadow: 5px 5px 1px 5px rgba(206, 104, 9, 0.5);
+    box-shadow: 5px 5px 3px 5px rgba(206, 104, 9, 0.3);
 }
 
 .partner_section{
@@ -317,7 +316,8 @@ footer p{
 .memes_main img{
     width:200px;
     margin-top:1.5rem;
-    border:3px solid rgba(206, 104, 9, 0.5);
+    border:1px solid rgba(206, 104, 9, 0.1);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 .first,.third,.four,.fifth{
     display:flex;
