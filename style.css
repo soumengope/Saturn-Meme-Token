@@ -40,7 +40,7 @@ body {
 }
 .nav_lists{
     display:flex;
-    gap:1rem;
+    gap:1.5rem;
     padding-right:2rem;
 }
 .nav_lists a{
