@@ -13,7 +13,6 @@ const observer = new IntersectionObserver(function(entries,observer){
             return
         }
         elem.target.classList.add('show_anim')
-        console.log(elem.target);
     })
 },options)
  
