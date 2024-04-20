@@ -47,7 +47,7 @@ body {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight:600;
-    color:rgb(0, 118, 214);
+    color:white;
     transition:color 200ms ease;
 }
 .nav_lists a:hover{
@@ -430,7 +430,7 @@ footer p{
     }
     .nav_btn img{
         width:35px;
-        filter: invert(38%) sepia(95%) saturate(4758%) hue-rotate(191deg) brightness(93%) contrast(102%);
+        filter: invert(95%) sepia(95%) saturate(0%) hue-rotate(123deg) brightness(106%) contrast(104%);
     }
     .nav_lists{display:none;}
     .nav_main.nav_stl{
@@ -470,7 +470,7 @@ footer p{
         padding-top:0.5rem;
         padding-right:1rem;
         width:50px;
-        filter: invert(38%) sepia(95%) saturate(4758%) hue-rotate(191deg) brightness(93%) contrast(102%);
+        filter:invert(95%) sepia(95%) saturate(0%) hue-rotate(123deg) brightness(106%) contrast(104%);
     }
     .fTenor_logo{
         margin:0 auto;
