@@ -264,14 +264,19 @@ body {
     height:100px;
     margin:2rem auto;
     margin-bottom: 5rem;
+    box-shadow: 3px 3px 4px 3px rgba(206, 104, 9, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
 }
 .dgnImg img{
     text-align:center;
-    width: 100%;
-    height:100%;
+    width:100%;
     border-radius: 20px;
-    object-fit:cover;
-    box-shadow: 5px 5px 3px 5px rgba(206, 104, 9, 0.3);
+    animation: dgnAnim 8000ms linear alternate-reverse  infinite ;
+}
+@keyframes dgnAnim {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-380px);}
 }
 
 .partner_section{
@@ -503,6 +508,10 @@ footer p{
     .dgnImg{
         width:95%;
         height:80px;
+    }
+    @keyframes dgnAnim {
+        0%{transform: translateY(0);}
+        100%{transform: translateY(-90px);}
     }
     .partner_section ul{
         flex-direction: column;
