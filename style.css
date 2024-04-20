@@ -448,7 +448,9 @@ footer p{
     }
     .nav_main.nav_stl .container{
         width:100%;
-        padding-left:2rem;
+        padding:2rem 1rem;
+        padding-left:4rem;
+        background-color: rgb(48, 137, 189);
     }
     .nav_main.nav_stl >.nav_control >.nav_lists{
         text-align:center;
@@ -468,8 +470,8 @@ footer p{
         position: absolute;
         top:0;
         right:0;
-        padding-top:0.5rem;
-        padding-right:1rem;
+        padding-top:1.4rem;
+        padding-right:1.5rem;
         width:50px;
         filter:invert(95%) sepia(95%) saturate(0%) hue-rotate(123deg) brightness(106%) contrast(104%);
     }
