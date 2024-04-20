@@ -31,6 +31,18 @@
             justify-content: center;
             margin-bottom: 2rem;;
        }
+       .rular_img{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            gap:2rem;
+            padding-bottom:5rem;
+       }
+       .rular_img img{
+        text-align: center;
+        width:350px;
+        box-shadow: 5px 5px 10px rgba(253, 152, 0, 0.3);
+       }
        @media only screen and (max-width: 768px){
         .ruler_main{
             width:80%;
@@ -41,6 +53,15 @@
         }
         .ruler_main h2{
                 padding-bottom:2.5rem;
+        }
+        .rular_img{
+            flex-direction: column;
+        }
+        .rular_img div{
+            margin:0 auto;
+        }
+        .rular_img img{
+            width:250px;
         }
        }
     </style>
@@ -71,6 +92,13 @@
             <div class="join_btn"><a class="btn" href="">Join Us</a></div>
             <p>Through captivating imagery, insightful articles, and thought-provoking discussions, "Saturn: Ruler of Time" offers a window into the timeless allure of the sixth planet from the Sun. Whether you're a seasoned astronomer or a curious novice, there's always something new to learn about Saturn and its profound influence on our understanding of time and space.</p>
             <p>So join us on this celestial journey as we explore the enduring legacy of Saturn, the magnificent guardian of the cosmic clock.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="rular_img">
+            <div><img src="images/rular1.webp" alt=""></div>
+            <div><img src="images/rular2.webp" alt=""></div>
         </div>
     </section>
     

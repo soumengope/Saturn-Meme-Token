@@ -46,6 +46,20 @@
        @keyframes cAnim {
         100%{transform:scale(0.8);}
        }
+       .giggle_img{
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:2rem;
+            padding-bottom:5rem;
+       }
+       .giggle_img div{
+        margin: 0 auto;
+       }
+       .giggle_img img{
+            width:350px;
+            box-shadow: 5px 5px 10px rgba(253, 152, 0, 0.3);
+       }
        @media only screen and (max-width: 768px){
         .main_giggle{
             width:80%;
@@ -56,6 +70,12 @@
         }
         .main_giggle h2{
                 padding-bottom:2.5rem;
+        }
+        .giggle_img{
+            flex-direction: column;
+        }
+        .giggle_img img{
+            width:250px;
         }
        }
     </style>
@@ -87,6 +107,13 @@
         </div>
         <div class="click_btn"><a class="btn" href="">Join Fast</a></div>
         <div class="clikBtn_img"><img src="images/click_link.png" alt=""></div>
+    </section>
+
+    <section>
+        <div class="giggle_img">
+            <div><img src="images/giggle1.jpg" alt=""></div>
+            <div><img src="images/giggle2.jpg" alt=""></div>
+        </div>
     </section>
 
     <section>
