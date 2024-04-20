@@ -12,7 +12,6 @@ body {
 }
 
 .container {
-    background-color: #f1b253;
     padding: 1rem;
     display: flex;
     gap:2rem;
@@ -31,7 +30,8 @@ body {
     from{transform:rotate(360deg);}
 }
 .nav_main{
-    background-color: #f1b253;
+    /* background-color: #f1b253; */
+    background-color: rgb(48, 137, 189);;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -306,7 +306,8 @@ body {
     background-color: #fcb901;
 }
 footer {
-    background-color: #f1cc53;
+    /* background-color: #f1cc53; */
+    background-color: rgb(48, 137, 189);
     color: #000000;
     text-align: center;
     padding: 20px 30px;
@@ -327,7 +328,7 @@ footer p{
     gap:2rem;
 }
 .tweet{
-    filter: invert(24%) sepia(65%) saturate(6279%) hue-rotate(229deg) brightness(101%) contrast(100%);
+    filter: invert(100%) sepia(3%) saturate(13%) hue-rotate(96deg) brightness(106%) contrast(103%);
 }
 .dextool{
     border-radius: 50%;
